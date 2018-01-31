@@ -15,13 +15,14 @@
 		box-sizing: border-box;
 	}
 		body {
-			background-color: rgba(139,143,90, 0.8);
+			/*background-color: rgba(139,143,90, 0.8);*/
+			background-color: rgba(33,99,255, 0.8);
 			width: 80%;
 			margin: auto;
 			text-align: center;
 			color: rgb(255,255,255);
 			font-size: 16px;
-			font-family: 'faster one', serif;
+			font-family: georgia, serif;
 		}
 
 		.footer {
@@ -29,26 +30,29 @@
 			/*position: absolute;*/
 			bottom: 25px;
 			text-align: center;
-			margin: 20px auto;
-			width: 80%;
+			/*margin: 20px auto;*/
+			width: 100%;
 		}
 
 		.header {
-			margin-top: 20px;
+			/*margin-top: 20px;*/
 		}
 		a , .fa {
 			/*color: #000;*/
 			/*font-size: 22px;*/
-			margin: 10px;
+			margin-right: 10px;
 		}
 
 		.icon {
 			margin: 30px auto;
+			display: inline-block;
 		}
 
 		img {
-			width: 90%;
-			height: 100%;
+			/*width: 90%;*/
+			width: 280px;
+			/*height: 100%;*/
+			height: 230px;
 			margin: 20px auto;
 			border-radius: 40px;
 		}
@@ -56,6 +60,7 @@
 		.dots {
 			text-align: center;
 			margin: 20px auto;
+			display: none;
 		}
 
 		.dot {
@@ -95,6 +100,7 @@
 		}
 
 		.prev, .next {
+			display: none;
 			top: 50%;
 			cursor: pointer;
 			transition: 0.6s ease;
@@ -122,7 +128,7 @@
 			/*position: absolute;*/
 			/*padding: 8px 12px;*/
 			/*text-align: center;*/
-			font-size: 15px;
+			font-size: 20px;
 			/*bottom: 8px;*/
 			width: 100%;
 		}
@@ -139,29 +145,64 @@
 					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 					<div class="slideShow">
 						<div class="mySlides fade">
-							<div class="number">1/5</div>
-							<img src="bb-key1.jpg" alt="first image">
-							<div class="text">Caption 1</div>
+							<div class="number">1/12</div>
+							<img src="isa_brown0.jpg" alt="Isa Brown Layer">
+							<div class="text">Isa Brown Layer</div>
 						</div>
 						<div class="mySlides fade">
-							<div class="number">2/5</div>
-							<img src="bb-key12.jpg" alt="second image">
-							<div class="text">Caption 2</div>
+							<div class="number">2/12</div>
+							<img src="isa_brown1.jpg" alt="Isa Brown Layer">
+							<div class="text">Isa Brown Layer</div>
 						</div>
 						<div class="mySlides fade">
-							<div class="number">3/5</div>
-							<img src="bb-key13.jpg" alt="third image">
-							<div class="text">Caption 3</div>
+							<div class="number">3/12</div>
+							<img src="isa_brown2.jpg" alt="Isa Brown Layer">
+							<div class="text">Isa Brown Layer</div>
 						</div>
 						<div class="mySlides fade">
-							<div class="number">4/5</div>
-							<img src="bb-key11.jpg" alt="third image">
-							<div class="text">Caption 4</div>
+							<div class="number">4/12</div>
+							<img src="isa_brownchick0.jpg" alt="Isa Brown Chick">
+							<div class="text">Isa Brown Chick</div>
 						</div>
 						<div class="mySlides fade">
-							<div class="number">5/5</div>
-							<img src="s8.jpg" alt="third image">
-							<div class="text">Caption 5</div>
+							<div class="number">5/12</div>
+							<img src="isa_brown1.jpg" alt="Isa Brown Chick">
+							<div class="text">Isa Brown Chick</div>
+						</div>
+						<div class="mySlides fade">
+							<div class="number">6/12</div>
+							<img src="isa_brownchick2.jpg" alt="Isa Brown Chick">
+							<div class="text">Isa Brown Chick</div>
+						</div>
+						<div class="mySlides fade">
+							<div class="number">7/12</div>
+							<img src="aa_plus0.jpg" alt="Arbor Acres Plus Broiler">
+							<div class="text">Arbor Acres Plus Broiler</div>
+						</div>
+						<div class="mySlides fade">
+							<div class="number">8/12</div>
+							<img src="aa_plus1.png" alt="Arbor Acres Plus Broiler">
+							<div class="text">Arbor Acres Plus Broiler</div>
+						</div>
+						<div class="mySlides fade">
+							<div class="number">9/12</div>
+							<img src="aa_plus2.jpg" alt="Abor Acres Plus Broiler">
+							<div class="text">Arbor Acres Plus Broiler</div>
+						</div>
+						<div class="mySlides fade">
+							<div class="number">10/12</div>
+							<img src="aa_pluschick0.jpg" alt="Arbor Acres Plus Chick">
+							<div class="text">Arbor Acres Plus Chick</div>
+						</div>
+						<div class="mySlides fade">
+							<div class="number">11/12</div>
+							<img src="aa_pluschick1.gif" alt="Arbor Acres Plus Chick">
+							<div class="text">Arbor Acres Plus Chick</div>
+						</div>
+						<div class="mySlides fade">
+							<div class="number">12/12</div>
+							<img src="aa_pluschick2.jpg" alt="Arbor Acres Plus Chick">
+							<div class="text">Arbor Acres Plus Chick</div>
 						</div>
 					</div>
   					<a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -172,6 +213,13 @@
 						<span class="dot" onclick="currentSlide(3)"></span>
 						<span class="dot" onclick="currentSlide(4)"></span>
 						<span class="dot" onclick="currentSlide(5)"></span>
+						<span class="dot" onclick="currentSlide(6)"></span>
+						<span class="dot" onclick="currentSlide(7)"></span>
+						<span class="dot" onclick="currentSlide(8)"></span>
+						<span class="dot" onclick="currentSlide(9)"></span>
+						<span class="dot" onclick="currentSlide(10)"></span>
+						<span class="dot" onclick="currentSlide(11)"></span>
+						<span class="dot" onclick="currentSlide(12)"></span>
 					</div>
 
 				</div>
@@ -180,12 +228,12 @@
 
 			</div>
 			<div class="footer">
-				<p><div class="icon">
+				<div class="icon">
+				<h6>&copy; CHI Farms Ltd - a subsidiary of TGI</h6>
 					<a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
 					<a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
 					<a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
 				</div>
-				&copy; CHI Farms Ltd </p><p><h5>a subsidiary of Tropical General Investments</h5></p>
 			</div>
 		</div>
 	</div>
@@ -196,50 +244,54 @@
  -->
 
 <script>
-	// var slideIndex = 0;
-	// showSlides();
+	var slideIndex = 0;
+	showSlides();
 
-	// function showSlides(){
-	// 	var slides = document.getElementsByClassName('mySlides');
-	// 	for(var i = 0; i < slides.length; i++){
-	// 		slides[i].style.display = 'none';
-	// 	}
-	// 	slideIndex++;
-	// 	if(slideIndex > slides.length) {
-	// 		slideIndex = 1
-	// 	}
-	// 	slides[slideIndex - 1].style.display = 'block';
-	// 	setTimeout(showSlides, 2000);
+	function showSlides(){
+		var slides = document.getElementsByClassName('mySlides');
+		for(var i = 0; i < slides.length; i++){
+			slides[i].style.display = 'none';
+		}
+		slideIndex++;
+		if(slideIndex > slides.length) {
+			slideIndex = 1
+		}
+		slides[slideIndex - 1].style.display = 'block';
+		setTimeout(showSlides, 2000);
+	}
+
+
+	// var slideIndex = 1;
+	// showSlides(slideIndex);
+
+	// // Next/previous controls
+	// function plusSlides(n) {
+	//   showSlides(slideIndex += n);
+	// }
+
+	// // Thumbnail image controls
+	// function currentSlide(n) {
+	//   showSlides(slideIndex = n);
+	// }
+
+	// function showSlides(n) {
+	//   var slides = document.getElementsByClassName("mySlides");
+	//   var dots = document.getElementsByClassName("dot");
+	//   if (n > slides.length) {slideIndex = 1}
+	//   if (n < 1) {slideIndex = slides.length}
+	//   for (var i = 0; i < slides.length; i++) {
+	//       slides[i].style.display = "none";
+	//   }
+	//   for (i = 0; i < dots.length; i++) {
+	//       dots[i].className = dots[i].className.replace(" active", "");
+	//   }
+	//   slides[slideIndex-1].style.display = "block";
+	//   dots[slideIndex-1].className += " active";
 	// }
 
 
-	var slideIndex = 1;
-	showSlides(slideIndex);
-
-	// Next/previous controls
-	function plusSlides(n) {
-	  showSlides(slideIndex += n);
-	}
-
-	// Thumbnail image controls
-	function currentSlide(n) {
-	  showSlides(slideIndex = n);
-	}
-
-	function showSlides(n) {
-	  var slides = document.getElementsByClassName("mySlides");
-	  var dots = document.getElementsByClassName("dot");
-	  if (n > slides.length) {slideIndex = 1}
-	  if (n < 1) {slideIndex = slides.length}
-	  for (var i = 0; i < slides.length; i++) {
-	      slides[i].style.display = "none";
-	  }
-	  for (i = 0; i < dots.length; i++) {
-	      dots[i].className = dots[i].className.replace(" active", "");
-	  }
-	  slides[slideIndex-1].style.display = "block";
-	  dots[slideIndex-1].className += " active";
-	}
+var news = new Array(5).toString();
+console.log(news);
 
 </script>
 </body>
